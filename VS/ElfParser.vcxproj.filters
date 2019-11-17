@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{a588dcfd-8cc5-4cb2-bd74-dcf26e0e6993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Appli">
+      <UniqueIdentifier>{8c776efe-6dd3-492d-85b1-39309220b1da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Common">
+      <UniqueIdentifier>{f699fa13-4a14-4f0f-a95a-c26345300416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Elf">
+      <UniqueIdentifier>{069251f4-70e9-4b33-9212-6c43a36d6113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\IO">
+      <UniqueIdentifier>{98382bc2-e742-4d50-a251-3fc0c4a552e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Param">
+      <UniqueIdentifier>{84e961c8-b68e-4080-8aeb-f0bfde4d5036}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\Appli\main.c">
+      <Filter>Code\Appli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Elf\Elf.c">
+      <Filter>Code\Elf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\IO\io.c">
+      <Filter>Code\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Param\param.c">
+      <Filter>Code\Param</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\Elf\Elf.h">
+      <Filter>Code\Elf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\IO\io.h">
+      <Filter>Code\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Param\param.h">
+      <Filter>Code\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Common\common.h">
+      <Filter>Code\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
